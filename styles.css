@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+}
+
+header {
+    border-bottom : solid 2px brown;
+    font-size: 32px;
+    color: brown;
+}
+
+section{
+    background: brown;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.chamada-texto{
+    margin-right: 3%
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-y: auto;
+    gap: 20px
+}
+
+.musics{
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+Div .categoria-videos img {
+    opacity: 0,5;
+}
+Div .categoria-videos img:hover {
+    opacity: 1.0;
+}
